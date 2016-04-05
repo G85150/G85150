@@ -1,0 +1,5 @@
+<TimeOfDay Time="19.0275" TimeStart="12" TimeEnd="12" TimeAnimSpeed="0">
+ <Presets>
+  <Preset Name="libs/environmentpresets/G85150.xml" Default="1"/>
+ </Presets>
+</TimeOfDay>
