@@ -119,6 +119,14 @@
      <RenderProxyOptions bAnimateOffScreenShadow="0"/>
     </Properties>
    </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="{277C7B0C-2F0C-432F-8906-ACE592DA0A98}" Id="{09E93646-3FBB-4565-AF83-46278E393EB6}" Name="Chickens1" Pos="101.32642,47.315132,14.503756" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Chickens" HasEntity="1">
+    <Properties>
+     <Boid nCount="10" gravity_at_death="-9.81" bInvulnerable="0" Mass="10" object_Model="objects/characters/animals/birds/rooster/rooster.cdf"/>
+     <Flocking AttractDistMax="20" AttractDistMin="5" bEnableFlocking="0" FactorAlign="0.01" FactorCohesion="0.01" FactorSeparation="1" FieldOfViewAngle="250"/>
+     <Movement FactorAvoidLand="10" FactorHeight="1" FactorOrigin="0.1" HeightMax="1" HeightMin="0" MaxAnimSpeed="4" SpeedMax="5" SpeedMin="1"/>
+     <Options bActivate="1" bAvoidWater="1" bFollowPlayer="0" bNoLanding="0" bObstacleAvoidance="1" PickableMessage="" bPickableWhenAlive="1" bPickableWhenDead="1" Radius="10" VisibilityDist="50"/>
+    </Properties>
+   </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="{277C7B0C-2F0C-432F-8906-ACE592DA0A98}" Id="{F381B361-37DA-4894-9C9C-1C880B53D279}" Name="Light1" Pos="104.25618,23.47608,21.346188" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" EntityClass="Light" HasEntity="1">
     <Properties bActive="1" fAttenuationBulbSize="0.05" Radius="10" _nVersion="-1">
      <Color clrDiffuse="1,1,1" fDiffuseMultiplier="1" fSpecularMultiplier="1"/>
